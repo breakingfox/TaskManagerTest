@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="261.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.DeleteTask">
+   <children>
+      <Label layoutX="68.0" layoutY="68.0" prefHeight="69.0" prefWidth="185.0" text="Удалить задачу?" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="68.0" layoutY="166.0" mnemonicParsing="false" text="Да" />
+      <Button layoutX="201.0" layoutY="166.0" mnemonicParsing="false" text="Нет" />
+   </children>
+</AnchorPane>

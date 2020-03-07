@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindow">
+   <children>
+      <Button layoutX="205.0" layoutY="61.0" mnemonicParsing="false"  onAction = "#actionButtonPressed" prefHeight="25.0" prefWidth="60.0" text="Create" /> // сюда добавить метод, создающий
+      <Button layoutX="205.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Delete" />
+      <Button layoutX="205.0" layoutY="142.0" mnemonicParsing="false" text="All tasks" />
+      <Separator layoutX="167.0" layoutY="2.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="7.0" />
+      <ListView layoutX="5.0" layoutY="47.0" prefHeight="310.0" prefWidth="154.0" />
+      <Label contentDisplay="CENTER" layoutX="36.0" layoutY="14.0" prefHeight="17.0" prefWidth="135.0" text="TASKMANAGER" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>
